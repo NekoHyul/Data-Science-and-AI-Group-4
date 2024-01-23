@@ -13,6 +13,9 @@ Submitted to: Labastilla, Aisa M.
 
 Date: January 4, 2024
 
+![Capstone](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/07a7bdc6-8be7-48f7-ad7d-62606ae6363a)
+
+
 # Introduction / Problem Statement
   In developing nations such as the Philippines, food loss takes place prior to consumption, posing a growing concern for Filipino farmers and posing threats to both food security and agricultural sustainability.  
 According to [1], various factors contribute to food loss and waste throughout the entire food supply chain, including preharvest, harvesting, post-harvest, storage, distribution, retail, and consumption. The primary factor behind food loss is the challenges faced by small-scale farmers in implementing effective postharvest handling, encompassing the provision of storage facilities, infrastructure, cooling chains, packaging, and marketing systems. These challenges, combined with the country's climatic conditions, create an environment conducive to spoilage and diseases, leading to significant quantities of food losses. In the Philippines, being a tropical nation, valuable crops like fruits and vegetables are susceptible to factors such as early ripening due to the inherent high temperature and relative humidity prevalent in the environment. 
