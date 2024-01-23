@@ -75,12 +75,16 @@ The main objective of this project is to analyze and evaluate datasets in addres
   ![Picture1](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/9fcd17f9-9ade-435a-9d9b-9ed3d4f53393)
 
   In the pursuit of gaining comprehensive insights into the trends and patterns of agricultural production in the Philippines, a systematic data manipulation and analysis process has been devised. The flowchart encapsulates a series of steps aimed at preparing, visualizing, and modeling agricultural data to achieve the overarching objective of understanding and predicting production rates for maize, rice, and livestock.
+Data Preparation
 First is to address missing values within the dataset by identifying them and subsequently handling them, through imputation or removal.
 Once the missing values are addressed, the next step involves isolating relevant data pertaining to the Philippines. This would require filtering the dataset to focus solely on information related to the Philippines, laying the groundwork for a more targeted analysis of agricultural production trends within the country.
 Following data cleaning and isolation, the creation of scatter plots to visualize the production rates of maize, rice, and livestock over the years. Visualization is crucial for gaining preliminary insights into potential patterns and trends that could inform subsequent analyses.
 Moving forward, the data needs to be prepared for machine learning tasks. This involves splitting the dataset into training and testing sets using techniques like the train_test_split function. Each agricultural product—maize, rice, and livestock—requires a specific dataset containing relevant features (such as 'Year') and corresponding target variables (production rates) for model training.
+Training
 The next phase involves selecting appropriate machine learning models, such as linear regression for production rate prediction and logistic regression for classification tasks. These models will be trained on the training datasets, and their performance will be evaluated using various metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), accuracy, precision, recall, and F1 score.
+Classification
 Moreover, the introduction of a classification threshold is suggested as a step for categorizing production rates into high or low categories. This additional layer of analysis enhances the interpretability of the models and contributes to informed decision-making based on classification outcomes.
+
 
 
 # Data and Results
@@ -94,7 +98,7 @@ As the students shared their insights, it became clear that the choice of linear
 
   
 # Conclusion
-In summarizing the Capstone Project, the group of students set out to construct predictive models that could provide valuable insights into the complex dynamics of global food production. Employing various techniques, including linear regression, logistic regression, and deep learning, their exploration commenced with the acquisition of a comprehensive dataset from Kaggle, offering detailed information on global food production dynamics.
+A developed model with the ability to classify different levels of production in the agricultural sector has been successfully created. The intricate dynamics of global food production have been systematically captured through the strategic implementation of a range of techniques, including linear regression and logistic regression. Their exploration commenced with the acquisition of a comprehensive dataset from Kaggle, offering detailed information on global food production dynamics.
 
 In the initial phases, the students meticulously analyzed and organized the dataset. Utilizing tools such as NumPy, Pandas, and visualization libraries, they prepared the data by addressing missing values and focused on understanding the production rates of Maize, Rice, and Livestock in the Philippines.
 
