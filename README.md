@@ -110,9 +110,13 @@ Directly access the Jupyter notebook: *[Jupyter-Notebook-Capstone](Jupyter-Noteb
 
 # References
 [1] 	L. E. Mopera, "Food Loss in the Food Value Chain: The Philippine Agriculture Scenario," Journal of Developments in Sustainable Agriculture, vol. 11, pp. 8-16, 2016. 
+
 [2] 	A. Barrion, J. Calayag, . M. Nguyen-Orca and M. Melo-Rijik, "Food loss and waste in the Philippines: a literature review," Food Research, vol. 6, pp. 278-289, 2023. 
+
 [3] 	M. Kołodziejczak and K. Pawlak, "The Role of Agriculture in Ensuring Food Security in," sustainability, vol. 1, no. 1, p. 20, 2020. 
+
 [4] 	A. Pastolero and M. Sassi, "Food loss and waste accounting: the case of the Philippine food supply chain," vol. 11, no. 3, p. 21, 2022. 
+
 [5] 	P. Horne, W. Stur, P. Phengsavanh, F. Gabunada and R. Roothaert, "New Forages for Smallholder Livestock Systems in Southeast Asia: Recent Developments, Impacts and Opportunities," Grasslands, vol. 8, no. 3, p. 26, 2018. 
 
 
