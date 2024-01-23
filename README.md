@@ -111,6 +111,7 @@ In conclusion, the Capstone Project not only deepened the group's understanding 
 
 # Program Codes / Google colab / Jupyter notebook or spyder IDE
 Directly access the Jupyter notebook: *[Jupyter-Notebook-Capstone](Jupyter-Notebook-Capstone.ipynb)*
+
 Directly access the Jupyter notebook (PDF): *[Jupyter-Notebook-Capstone](Jupyter-Notebook-Capstone.pdf)*
 
 # References
