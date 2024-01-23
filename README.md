@@ -88,13 +88,46 @@ Moreover, the introduction of a classification threshold is suggested as a step 
 
 
 # Data and Results
-In this Capstone Project, the group, consisting of John Loyd Almirol, Irvin Ace Alviar, Jelyn De Silva, and Mark Olsen Micua, embarked on the task of constructing predictive models for world food production. The chosen techniques included linear regression, and logistic regression. The initial phase involved the exploration and preprocessing of the dataset, which was acquired from Kaggle and detailed information about global food production. Using libraries such as NumPy, Pandas, Matplotlib, and Seaborn, the students loaded the data into a Jupyter Notebook, conducted an initial check for missing values, and handled them by filling with zeros.
+In this Capstone Project, the group, consisting of John Loyd Almirol, Irvin Ace Alviar, Jelyn De Silva, and Mark Olsen Micua, embarked on the task of constructing predictive models for world food production. The chosen techniques included linear regression, logistic regression, and deep learning. The initial phase involved the exploration and preprocessing of the dataset, which was acquired from Kaggle and detailed information about global food production. Using libraries such as NumPy, Pandas, Matplotlib, and Seaborn, the students loaded the data into a Jupyter Notebook, conducted an initial check for missing values, and handled them by filling with zeros.
 
 Descriptive statistics and visualizations were then employed to understand the distribution of data, with specific attention given to the production rates of Maize, Rice, and Livestock in the Philippines over the years. Notably, the dataset was processed using linear and logistic regression models rather than more advanced machine learning methods, as the students found the nature of the dataset to be better suited to these classical statistical techniques.
 
 Moving into the predictive modeling phase, linear regression models were implemented to predict production rates for Maize, Rice, and Livestock based on the 'Year.' Despite encountering relatively high errors, especially in predicting Maize and Rice production rates, the model for Livestock production demonstrated comparatively lower errors. Subsequently, logistic regression models were employed for classification tasks, distinguishing between high and low production based on predefined thresholds. The logistic regression models exhibited high accuracy and precision, indicating success in classifying production levels. However, perfect recall in all models hinted at potential bias towards predicting the majority class.
 
 As the students shared their insights, it became clear that the choice of linear and logistic regression over more complex machine learning models was intentional. They highlighted that the dataset's characteristics, presumably with a relatively simple structure, made these classical statistical techniques more suitable for the given task. The students concluded by offering recommendations for future improvements, suggesting exploration into feature engineering, hyperparameter tuning, and investigation of biases in the dataset, while also leaving room for the potential integration of advanced modeling methods for more complex patterns in the data.
+
+Here are some of the graphs from the dataset which will be discussed:
+	The group has chosen three different aspects of food production in the Philippines namely maize, corn, and livestock. In this part, each of the food production will be discussed through some graphs.
+
+ ![Picture2](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/a4d832e4-bc8e-43b5-8fc6-d42fcf40e77e)
+
+
+The figure above is aimed at visualizing the production rate of maize in the Philippines using a scatter plot. Each point on the plot corresponds to a specific year, and the distribution of points illustrate the changes in production levels. It is evident that over the course of the years, the majority of the number of maize productions in the Philippines is considerably low and hasn’t made significant progress since the date of data gathering. Using the code DataFrame (df) helped the group to isolate the data related to the Philippines. The data for the Philippines is extracted and stored in the variable country_data.
+
+![Picture3](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/bfebb166-e20b-464b-a765-2f30a38cedb0)
+
+
+Visible from the figure above, it has the same purpose as the previous one given from where it is focused on visualizing the production rate of rice in the Philippines this time. This plot has slightly different points from the maize plot however there is still a vast majority of low production rates throughout the years that it has been examined.
+
+![Picture4](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/780a1bdd-8787-4614-b292-dcdea98b79d4)
+
+
+Compared to the first two food production in the Philippines which are crops, this one involves livestock.Consequently, its plot does not differ significantly from the two. Throughout the year 1961 to 2023, livestock production still produces low amount of food production evident from the graph.
+
+![Picture5](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/90a86ecc-b6df-4507-9795-c94e327d77f6)
+
+
+The resulting plot visually represents the relationship between the year and maize production. The scatter points illustrate the actual data, and the regression line provides a fitted representation of how maize production changes over the years. To explain the plot more, plt.scatter(df['Year'], df['Maize Production (tonnes)']) creates a scatter plot with 'Year' on the x-axis and 'Maize Production (tonnes)' on the y-axis. plt.plot(X1_test, y1_pred, color='red', linewidth=2) adds a regression line to the scatter plot. This line is likely based on a regression model fitted to the data. The X1_test values represent the input years for prediction, and y1_pred represents the predicted maize production values.
+
+![Picture6](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/6ec93213-3b7d-4a18-ae89-cc5a01b8b6ef)
+
+
+Same as the previous plot before this one, the resulting plot offers a visual representation of the correlation between the year and rice production. The scatter points convey the actual data points, while the regression line provides a fitted representation of how rice production evolves across the specified years. plt.scatter(df['Year'], df['Rice Production (tonnes)']) was used to construct a scatter plot where the x-axis represents the years, and the y-axis corresponds to the recorded rice production in tonnes. plt.plot(X2_test, y2_pred, color='red', linewidth=2) introduces a regression line to the scatter plot. This line is likely derived from a regression model fitted to the data. The X2_test values denote the input years used for prediction, and y2_pred represents the corresponding predicted rice production values.
+
+![Picture7](https://github.com/NekoHyul/Data-Science-and-AI-Group-4/assets/147147734/54b9d242-6a4c-41ca-b678-bee39a62592b)
+
+
+Finally, the livestock production resulting plot that visually illustrates the connection between the year and chicken meat production. Scatter points convey the actual data, while the regression line provides a fitted representation indicating how chicken meat production trends over the specified years. Same codes have been used as the maize and corn production in the linear regression except for the variables specifically used for labeling the livestock production.
 
 # Individual Thoughts
 Irvin's Take:
